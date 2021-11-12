@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/date_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="8dp"
+        android:text="18.2.21"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/from_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From: 1236845978" />
+
+        <TextView
+            android:id="@+id/to_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To: 1236845978" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/type_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="8dp"
+        android:text="c"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/amount_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="8dp"
+        android:text="Rs.5000"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/comment_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="8dp"
+        android:text="BAD CUSTOMER"
+        android:textAlignment="center" />
+</LinearLayout>

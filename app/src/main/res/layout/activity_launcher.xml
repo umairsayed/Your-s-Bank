@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context="com.lockhart.yoursbank.LauncherActivity">
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/bankLocation"-->
+    <!--        android:layout_width="388dp"-->
+    <!--        android:layout_height="53dp"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:text="Bank Location" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="104dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bank_logo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:fontFamily="@font/bungee"
+        android:text="Welcome"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="16dp"
+        android:id="@+id/emp_login"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:text="Employee Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cust_login" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="16dp"
+        android:id="@+id/cust_login"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="56dp"
+        android:text="Customer Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageButton
+        android:id="@+id/bankLocation"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00150B0B"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/location_logo" />
+
+    <TextView
+        android:id="@+id/ourHeadquarters"
+        android:layout_width="152dp"
+        android:layout_height="31dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:gravity="center_vertical"
+        android:text="Our Headquarters"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bankLocation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

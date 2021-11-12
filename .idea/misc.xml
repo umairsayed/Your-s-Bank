@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/drawable/gradient.xml" value="0.3828125" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_check_transaction.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_emp_trans.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_employee_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_launcher.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_loc.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_registration.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/activity_send_money.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/map.xml" value="0.36666666666666664" />
+        <entry key="..\:/Homework/AndroidProj/Your's Bank/YoursBank/app/src/main/res/layout/trans_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Work/Your's Bank/YoursBank/app/src/main/res/layout/activity_login.xml" value="0.3546195652173913" />
+        <entry key="..\:/Work/Your's Bank/YoursBank/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

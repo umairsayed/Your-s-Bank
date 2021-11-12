@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.lockhart.yoursbank.EmployeeDashboardActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="83dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bank_logo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="16dp"
+        android:id="@+id/register"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="192dp"
+        android:text="Register Customer"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="16dp"
+        android:id="@+id/debit_btn"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="36dp"
+        android:text="Debit Money from Account"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="16dp"
+        android:id="@+id/credit_btn"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="36dp"
+        android:text="Credit Money to Account"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/debit_btn" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="16dp"
+        android:id="@+id/check_all"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="36dp"
+        android:text="Check all Transactions"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credit_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
